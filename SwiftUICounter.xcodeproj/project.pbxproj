@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F42CE3C2834DA47001A2298 /* BackNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42CE3B2834DA47001A2298 /* BackNavView.swift */; };
 		9FBBB144283254AE001EF65A /* StateSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBB143283254AE001EF65A /* StateSampleView.swift */; };
 		9FBBB146283254FB001EF65A /* BindingSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBB145283254FB001EF65A /* BindingSampleView.swift */; };
 		9FBBB14828325581001EF65A /* ObservedObjectSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBB14728325581001EF65A /* ObservedObjectSampleView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F42CE3B2834DA47001A2298 /* BackNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackNavView.swift; sourceTree = "<group>"; };
 		9FBBB143283254AE001EF65A /* StateSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSampleView.swift; sourceTree = "<group>"; };
 		9FBBB145283254FB001EF65A /* BindingSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingSampleView.swift; sourceTree = "<group>"; };
 		9FBBB14728325581001EF65A /* ObservedObjectSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectSampleView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F42CE3D2834DE95001A2298 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9F42CE3B2834DA47001A2298 /* BackNavView.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
 		9FE03AEA27D7022F00C4F0AC = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		9FE03AF527D7022F00C4F0AC /* SwiftUICounter */ = {
 			isa = PBXGroup;
 			children = (
+				9F42CE3D2834DE95001A2298 /* UIComponent */,
 				9FE03AF627D7022F00C4F0AC /* SwiftUICounterApp.swift */,
 				9FBBB143283254AE001EF65A /* StateSampleView.swift */,
 				9FBBB145283254FB001EF65A /* BindingSampleView.swift */,
@@ -157,6 +168,7 @@
 				9FBBB14C2832569E001EF65A /* ContentView.swift in Sources */,
 				9FE03AF927D7022F00C4F0AC /* EnvironmentObjectSampleView.swift in Sources */,
 				9FBBB146283254FB001EF65A /* BindingSampleView.swift in Sources */,
+				9F42CE3C2834DA47001A2298 /* BackNavView.swift in Sources */,
 				9FBBB14A283255E8001EF65A /* ViewModel.swift in Sources */,
 				9FE03AF727D7022F00C4F0AC /* SwiftUICounterApp.swift in Sources */,
 			);
